@@ -2,7 +2,7 @@ import json
 import time
 database = {}
 
-print("In memory Database started:Give commands SET,GET,DEL,EXIST,SAVE,LOAD,EXIT")
+print("In memory Database started:Give commands SET,GET,DEL,EXIST,SAVE,LOAD,EXIT,SETEX,LPUSH,LPOP")
 
 while True:
     command = input("command is :").strip()
